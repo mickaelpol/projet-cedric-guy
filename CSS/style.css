@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	margin-top: 7em;
+	background: url(../image/background/ep_naturalblack.png);
+}
+/*[class*="col-"],
+footer {
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+}*/
+.navbar {
+	box-shadow: 5px 20px 25px black;
+	height: 4em;
+}
+.bg-primary {
+  color: #fff;
+  background-color: #337ab7;
+}
+.nav {
+	line-height: 3;
+}
+.btn a {
+	color: white;
+}
+.btn-info {
+	color: #fff;
+	background-color: #33b7f4;
+}
+.recherche {
+	color: #000;
+	margin-right: 2em;
+	line-height: 1.5;
+}
+.border {
+	border-radius: 5px;
+}
+.border li button:hover,
+.border li button:focus {
+	border: 1px solid lightgrey;
+}
+
+.btn-info:hover,
+.btn-info:focus {
+	box-shadow: 3px 15px 25px black;
+}
