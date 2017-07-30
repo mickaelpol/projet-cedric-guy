@@ -15,6 +15,7 @@ footer {
 .navbar {
 	box-shadow: 5px 20px 25px black;
 	height: 4em;
+	background-color: #0E131C;
 }
 .bg-primary {
   color: #fff;
@@ -23,9 +24,18 @@ footer {
 .nav {
 	line-height: 3;
 }
-.btn a {
-	color: white;
+.btn {
+	background-color: #37455b;
+	color: #000;
 }
+.btn:hover {
+	box-shadow: 3px 15px 25px black;
+	color: #000;
+}
+.btn a {
+	color: black;
+}
+
 .btn-info {
 	color: #fff;
 	background-color: #33b7f4;
@@ -43,7 +53,3 @@ footer {
 	border: 1px solid lightgrey;
 }
 
-.btn-info:hover,
-.btn-info:focus {
-	box-shadow: 3px 15px 25px black;
-}
