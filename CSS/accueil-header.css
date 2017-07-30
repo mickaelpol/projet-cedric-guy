@@ -1,0 +1,73 @@
+/* police 
+
+font-family: 'Cormorant', serif;
+
+font-family: 'Expletus Sans', cursive;
+
+*/
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	margin-top: 7em;
+	background: url(../image/background/ep_naturalblack.png);
+}
+/*[class*="col-"],
+footer {
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+}*/
+.navbar {
+	box-shadow: 5px 20px 25px black;
+	height: 4em;
+	background-color: #0E131C;
+}
+.logo {
+	background: url(../image/background/wood_pattern.png);
+}
+.bg-gris {
+  color: #fff;
+  background-color: #37455b;
+}
+.nav {
+	line-height: 3;
+}
+.btn {
+	font-family: 'Expletus Sans', cursive;
+	font-size: 16px;
+	background-color: #37455b;
+	color: white;
+}
+.btn:hover {
+	box-shadow: 3px 15px 25px black;
+	color: white;
+}
+.btn a {
+	color: white;
+}
+
+.btn-info {
+	color: white;
+	background-color: #33b7f4;
+}
+.recherche {
+	color: #000;
+	margin-right: 2em;
+	line-height: 1.5;
+}
+.border {
+	border-radius: 10px;
+}
+.border li button:hover,
+.border li button:focus {
+	border: 1px solid lightgrey;
+}
+.titre-1 {
+	font-family: 'Cormorant', serif;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 7%;
+}
+

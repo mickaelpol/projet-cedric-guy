@@ -20,4 +20,14 @@ footer {
     line-height: 40px;
 }*/
 
+.body {
+	margin-top: 5em;
+}
+.présentation {
+	font-family: 'Cormorant', serif;
+	font-size: 20px;
+	color: white;
+	padding-top: 2%;
+	margin-top: 10%;
+}
 
