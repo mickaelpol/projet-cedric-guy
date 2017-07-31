@@ -7,11 +7,10 @@ font-family: 'Expletus Sans', cursive;
 */
 footer {
 	font-family: 'Expletus Sans', cursive;
-	font-size: 22px;
+	font-size: 20px;
+	text-shadow: 10px 10px 5px black;
 	margin: 0;
 	padding: 0;
-	font-size: 16px;
-	margin-top: 7em;
 }
 /*[class*="col-"],
 footer {

@@ -9,16 +9,14 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
-	margin-top: 7em;
-	background: url(../image/background/ep_naturalblack.png);
+	margin-top: 2em;
+	background: url(../image/background/gd-particulier-batiment.jpg) center no-repeat;
+	background-size: cover;
 }
 .navbar {
 	box-shadow: 5px 20px 25px black;
 	height: 4em;
 	background-color: #0E131C;
-}
-.logo {
-	background: url(../image/background/wood_pattern.png);
 }
 .bg-gris {
   color: #fff;
@@ -63,5 +61,6 @@ body {
 	font-size: 40px;
 	font-weight: bold;
 	margin-top: 7%;
+	box-shadow: 10px 10px 10px black;
 }
 
