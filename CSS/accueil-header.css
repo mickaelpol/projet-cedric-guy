@@ -18,6 +18,10 @@ body {
 	height: 4em;
 	background-color: #0E131C;
 }
+
+.fleche {
+	margin-top: -55px;
+}
 .bg-gris {
   color: #fff;
   background-color: #37455b;
@@ -63,4 +67,6 @@ body {
 	margin-top: 7%;
 	box-shadow: 10px 10px 10px black;
 }
-
+.logo {
+	margin-left: 24px;
+}
