@@ -1,0 +1,33 @@
+/* police 
+
+font-family: 'Cormorant', serif;
+
+font-family: 'Expletus Sans', cursive;
+
+*/
+
+.body {
+	margin-top: 2em;
+}
+.marge-top {
+	margin-top: 10em;
+	background: url(../image/background/ep_naturalblack.png);
+	border-radius: 10px; 
+}
+.text-white {
+	color: #fff;
+}
+.text-black {
+	color: #000;
+}
+.taille-email {
+	width: 400px;
+	height: auto;
+}
+/*[class*="col-"],
+footer {
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+}*/
