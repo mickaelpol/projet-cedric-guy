@@ -10,7 +10,7 @@ body {
 	padding: 0;
 	font-size: 16px;
 	margin-top: 2em;
-	background: url(../image/background/gd-particulier-batiment.jpg) center;
+	background: url(../image/background/gd-particulier-batiment.jpg)fixed center;
 	background-size: cover;
 }
 .navbar {
@@ -23,7 +23,17 @@ body {
 }
 
 .fleche {
-	margin-top: -55px;
+	margin-top: -39px;
+	border-radius: 100%;
+	width: 30%;
+}
+.fleche:hover,
+.fleche:focus{
+	margin-top: -39px;
+	border-radius: 100%;
+	border: 1px solid black;
+	box-shadow: 1px 5px 5px black;
+	width: 30%;
 }
 .bg-gris {
   color: #fff;
