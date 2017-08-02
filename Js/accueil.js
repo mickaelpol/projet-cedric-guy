@@ -11,9 +11,12 @@ $('document').ready(function(){
               -Démarrage des travaux <br>\
               -Appréciation de la prestation <br>\
               Les services de votre courtier en travaux sont :\
-              GRATUITS"
-
-	var textCaché = "Bienvenue chez : Action Travaux Occitanie\
+              GRATUITS";
+var photoCaché = '<img  src="image/icone/votre-projet.png" width="250" height="200" class="center-block img-responsive img-thumbnail" alt="logo projet">';
+var photoCaché2 = '<img src="image/icone/gestion-administrative.jpg" width="250" height="200" class="center-block img-responsive img-thumbnail" alt="logo projet">';
+	
+  var textCaché = "\
+  Bienvenue chez : Action Travaux Occitanie\
 \
               Nous sommes ravis de vous accueillir sur notre site. Notre société vous offre un grand choix de services parfaitement adaptés à vos exigences.\
 \
@@ -30,7 +33,7 @@ $('document').ready(function(){
 var textCaché3 = "ACTION TRAVAUX OCCITANIE\
                 peut vous informer ou vous orienter vis à vis des aides, crédits d'impôts, normes et lois en vigueur afférentes à vos projets de travaux.\
                 Un accompagnement pour monter vos dossiers de financement.\
-                Transmettre les informations sur les assurances obligatoires et conseillées."
+                Transmettre les informations sur les assurances obligatoires et conseillées.";
               
               
 
@@ -54,8 +57,10 @@ var textCaché3 = "ACTION TRAVAUX OCCITANIE\
       			// console.log(count);
 
              	if (count%1 == 0){
+                $('#photo1').html(photoCaché).show('slow');
              		$('#caché2').html(textCaché2).show('slow');
              	} if (count%2 == 0) {
+                $('#photo1').html(photoCaché).hide('slow');
              		$('#caché2').html(textCaché2).hide('slow');
              	}
              });
@@ -65,8 +70,10 @@ var textCaché3 = "ACTION TRAVAUX OCCITANIE\
       			// console.log(count);
 
              	if (count%1 == 0){
+                $('#photo2').html(photoCaché2).show('slow');
              		$('#caché3').html(textCaché3).show('slow');
              	} if (count%2 == 0) {
+                $('#photo2').html(photoCaché2).hide('slow');
              		$('#caché3').html(textCaché3).hide('slow');
              	}
              });
