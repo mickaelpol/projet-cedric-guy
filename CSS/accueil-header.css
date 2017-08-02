@@ -18,6 +18,9 @@ body {
 	height: 4em;
 	background-color: #0E131C;
 }
+.fa-mobile {
+	color: #3d72a0;
+}
 
 .fleche {
 	margin-top: -55px;
@@ -70,3 +73,4 @@ body {
 .logo {
 	margin-left: 24px;
 }
+
