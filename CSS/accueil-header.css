@@ -62,7 +62,7 @@ body {
 .btn:hover,
 .btn:focus {
 	box-shadow: 3px 15px 25px black;
-	color: white;
+	color: #000;
 }
 .btn a {
 	color: white;
