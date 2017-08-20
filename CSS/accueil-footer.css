@@ -13,10 +13,10 @@ footer {
 	padding: 0;
 }
 
-[class*="col-"],
+/*[class*="col-"],
 footer {
     background-color: lightgreen;
     border: 2px solid black;
     border-radius: 6px;
     line-height: 40px;
-}
+}*/
