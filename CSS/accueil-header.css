@@ -34,18 +34,7 @@ body {
 	box-shadow: 1px 5px 5px black;
 	width: 30%;
 }
-.fleche1 {
-	margin-top: -39px;
-	border-radius: 100%;
-	width: 45%;
-}
-.fleche1:hover,
-.fleche1:focus{
-	margin-top: -39px;
-	border: 1px solid black;
-	box-shadow: 1px 5px 5px black;
-	width: 45%;
-}
+
 .bg-gris {
   color: #fff;
   background-color: #37455b;
@@ -93,5 +82,8 @@ body {
 }
 .logo {
 	margin-left: 24px;
+}
+.marge-top {
+	margin-top: 2em;
 }
 
