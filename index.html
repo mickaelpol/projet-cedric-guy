@@ -69,13 +69,20 @@
 					<div class="marge-top entreprise col-md-12 col-sm-12 col-xs-12 col-lg-12 text-white border">
 						<h3 class="page-header text-center text-uppercase">présentation de l'entreprise</h3>
 
-						<div class="col-md-2 col-sm-2 col-xs-2">
-							<img class="clic fleche img-responsive " src="image/icone/fleche-bas-3.png" alt="fleche descendente" id="clicker">
+						<!-- fleche en md et lg -->
+						<div class="visible-md visible-lg col-md-2 col-lg-2">
+							<img class="clic fleche img-responsive " src="image/icone/fleche-bas-3.png" alt="fleche d'ouverture du paragraphe" id="clicker">
+
+						</div>
+						<!-- fleche en sm et xs -->
+						<div class="visible-sm visible-xs col-sm-2 col-xs-2">
+							<img class="clic fleche-sm img-responsive " src="image/icone/fleche-bas-3.png" alt="fleche d'ouverture du paragraphe" id="clicker">
 
 						</div>
 
 						<div class="col-md-12">
 							<p class="text-justify text-center"><span id="caché"></span></p>
+							<!-- contenu injecter par Js -->
 						</div>
 					</div>
 				</div>
@@ -86,14 +93,22 @@
 			<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-white">
 				<h3 class="page-header text-center text-uppercase">votre projet</h3>
 
-				<div class="col-md-2 col-sm-2 col-xs-2 col-md-offset-">
-					<img id="click2" class="clic fleche img-responsive" src="image/icone/fleche-bas-3.png" alt="">
+				<!-- fleche en lg et md -->
+				<div class="visible-md visible-lg col-md-2 col-lg-2">
+					<img id="click2" class="clic fleche img-responsive" src="image/icone/fleche-bas-3.png" alt="fleche d'ouverture du paragraphe">
+				</div>
+
+				<!-- fleche en sm et xs -->
+				<div class="visible-sm visible-xs col-sm-2 col-xs-2">
+					<img id="click2" class="clic fleche-sm img-responsive" src="image/icone/fleche-bas-3.png" alt="fleche d'ouverture du paragraphe">
 				</div>
 
 				<div id="photo1" class="col-md-3 col-sm-3 col-xs-3 col-lg-3"> <!-- logo votre projet -->
 				</div>
 				<div class="col-md-7 col-sm-7 col-xs-7 col-lg-7 text-justify text-capitalize text-white">
 					<p class="text-justify text-center"><span id="caché2"></span></p>
+					<!-- contenu injecter par Js -->
+
 				</div>
 			</div>
 		</div> <!-- fin votre projet -->
@@ -101,13 +116,23 @@
 		<div class="row entreprise border"> <!-- début gestion administratvie -->
 			<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12  text-white">
 				<h3 class="page-header text-center text-uppercase">gestion administrative</h3>
-				<div class="col-md-2 col-sm-2 col-xs-2 col-lg-2">
-					<img id="click3" class="clic fleche img-responsive" src="image/icone/fleche-bas-3.png" alt="">
+
+				<!--fleche en lg et md -->
+				<div class="visible-lg visible-md col-md-2 col-lg-2">
+					<img id="click3" class="clic fleche img-responsive" src="image/icone/fleche-bas-3.png" alt="fleche d'ouverture du paragraphe">
 				</div>
+
+				<!-- fleche en sm et xs -->
+				<div class="visible-sm visible-xs col-sm-2 col-xs-2">
+					<img id="click3" class="clic fleche-sm img-responsive" src="image/icone/fleche-bas-3.png" alt="fleche d'ouverture du paragraphe">
+				</div>
+
 				<div id="photo2" class="col-md-3 col-sm-3 col-xs-3 col-lg-3"> <!-- logo administration -->
 				</div>
 				<div class="col-md-7 col-sm-7 col-xs-7 col-lg-7 text-center text-justify">
 					<p id="caché3"></p>
+					<!-- contenu injecter par Js -->
+
 				</div>
 			</div>
 		</div> <!-- fin gestion administrative -->
