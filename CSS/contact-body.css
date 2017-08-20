@@ -9,10 +9,20 @@ font-family: 'Expletus Sans', cursive;
 .body {
 	margin-top: 2em;
 }
+.border-connexion {
+	border: 2px solid white;
+}
 .marge-top {
-	margin-top: 10em;
+	margin-top: 8em;
 	background: url(../image/background/ep_naturalblack.png);
 	border-radius: 10px; 
+}
+.marge-top2 {
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Cormorant', serif;
+	box-shadow: 5px 15px 25px black; 
+	margin-top: 5%;
 }
 .text-white {
 	color: #fff;
@@ -26,6 +36,9 @@ font-family: 'Expletus Sans', cursive;
 .form-control:focus{
 	border-color: red;
 }
+/*.form-control:focus{
+
+}*/
 .border button:hover,
 .border button:focus{
 	box-shadow: 3px 15px 25px black;
@@ -34,6 +47,10 @@ font-family: 'Expletus Sans', cursive;
 }	
 .form-check {
 	
+}
+.loading img{
+	width: 20%;
+	height: 20%;
 }
 /*[class*="col-"],
 footer {

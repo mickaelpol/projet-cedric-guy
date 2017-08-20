@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+lk<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -31,44 +31,59 @@
   </div> <!-- fin navigation header -->
   <form class="container">
     <div class="col-md-12 marge-top text-capitalize">
-      <div class="col-md-8 col-md-offset-4 marge-interieure">
+      <div class="col-sm-5 col-sm-offset-4 text-uppercase ">
+        <p class="text-white marge-top2 border-connexion border text-center" id="success">formulaire envoyé :D</p>
+      </div>
+      <div id="form" class="col-md-8 col-md-offset-4 marge-interieure">
        <form>
          <div class="form-group row">
            <label class="text-white col-sm-2 form-control-label" for="prénom">Prénom</label>
            <div class="col-sm-4">
-             <input class="text-black form-control" type="" placeholder="john">
+             <input id="prénom" class="text-black form-control" type="" placeholder="john">
            </div>
          </div>
          <div class="form-group row">
            <label class="text-white col-sm-2 form-control-label" for="Nom">Nom</label>
            <div class="col-sm-4">
-             <input class="text-black form-control" type="" placeholder="Doe">
+             <input id="nom" class="text-black form-control" type="" placeholder="Doe">
            </div>
          </div>
          <div class="form-group row">
            <label class="text-white col-sm-2 form-control-label" for="Adresse mail">Mail</label>
            <div class="col-sm-4">
-             <input class="text-black form-control" type="" placeholder="exemple@gmail.com">
+             <input id="mail" class="text-black form-control" type="" placeholder="exemple@gmail.com">
            </div>
          </div>
          <div class="col-sm-4 col-md-offset-2 form-group row border">
-           <button onclick="" class="btn btn-md">Validez</button>
+           <button id="valid" onclick="" class="btn btn-md">Validez</button>
          </div>
          <div class="row">
+           <div class="col-md-12">
+             <div class="form-check">
+               <label for="" class="form-check-label col-sm-8 text-white ">
+                 <div class="col-sm-8">
+                  <input id="robot" type="checkbox" name="checkbox">
+                  i'm not a robot !! :@
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div id="loading" class="row">
          <div class="col-md-12">
-         <div class="form-check">
-           <label for="" class="form-check-label col-sm-8 text-white ">
-             <div class="col-sm-8">
-               <input type="checkbox" class="form-check-input" value="">
-               i'm not a robot !! :@
-             </div>
-           </label>
-           </div>
-           </div>
-         </div>
-       </form>
-     </div>
-   </div>
- </form>
+           <div class="col-sm-6 col-sm-offset-3 loading ">
+            <img src="image/icone/loading.GIF" alt="logo attente">
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</form>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="contact.js"></script>
 </body>
 </html>
