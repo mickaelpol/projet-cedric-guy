@@ -59,6 +59,28 @@ $(function(){
             }
           });
 
+  $('#clickerSm').click(function(){
+    count++;
+              //console.log(count);
+
+              if (count%1 == 0){
+               $('#caché').html(textCaché).show('slow');
+             } if (count%2 == 0) {
+               $('#caché').html(textCaché).hide('slow');
+             }
+  });
+
+  $('#clickerXs').click(function(){
+    count++;
+              //console.log(count);
+
+              if (count%1 == 0){
+               $('#caché').html(textCaché).show('slow');
+             } if (count%2 == 0) {
+               $('#caché').html(textCaché).hide('slow');
+             }
+  });
+
 
   $('#click2').click(function(){
     count++;
@@ -85,6 +107,7 @@ $(function(){
               $('#caché3').html(textCaché3).hide('slow');
             }
           });
+
 });
 
 
