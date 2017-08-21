@@ -87,6 +87,12 @@ body {
 	color: white;
 	background-color: #33b7f4;
 }
+.btn-primary:hover,
+.btn-primary:focus {
+	color: #fff;
+	background-color: #37455B;
+}
+
 .recherche {
 	color: #000;
 	margin-right: 2em;
