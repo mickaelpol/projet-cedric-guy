@@ -32,7 +32,7 @@ $(function(){
   \
   Vous souhaitez en savoir plus sur notre gamme de services ? Consultez notre offre.\
   \
-  Faites connaissance avec notre entreprise et notre équipe. Nous sommes à votre disposition pour toute demande ou question. N'hésitez pas à nous contacter !<br> <br>\
+  Faites connaissance avec notre entreprise et notre équipe. Nous sommes à votre disposition pour toute demande ou question. N'hésitez pas à nous contacter !<br>\
   ACTION TRAVAUX OCCITANIE <br>\
   est une société de courtage en travaux qui est spécialisé dans les travaux de rénovation intérieure ou extérieure, que ce soit pour carreler une cuisine, rénover une salle de bain ou une réfection de la maison de A à Z. <br>\
   action travaux occitanie\
