@@ -17,6 +17,8 @@ body {
 	box-shadow: 5px 20px 25px black;
 	height: 4em;
 	background-color: #0E131C;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 .fa-mobile {
 	color: #3d72a0;
@@ -89,6 +91,7 @@ body {
 	color: #000;
 	margin-right: 2em;
 	line-height: 1.5;
+	border-radius: 10px;
 }
 .border {
 	border-radius: 10px;
@@ -111,5 +114,9 @@ body {
 }
 .marge-top {
 	margin-top: 2em;
+}
+
+.bg-responsive {
+	background-color: #0E131C;
 }
 

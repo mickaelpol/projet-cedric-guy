@@ -6,6 +6,8 @@ $('#caché2').hide();
 $('#photo2').hide();
 $('#caché3').hide();
 
+$('#menu-responsive').hide();
+
 $(function(){
 
 
@@ -48,8 +50,8 @@ $(function(){
 
 //------------------------------ 1ere fleche du clicker -----------------------------//
 
-  $('#clicker').click(function(){
-   count++;
+$('#clicker').click(function(){
+ count++;
        			//console.log(count);
 
              if (count%1 == 0){
@@ -59,8 +61,8 @@ $(function(){
             }
           });
 
-  $('#clickerSm').click(function(){
-    count++;
+$('#clickerSm').click(function(){
+  count++;
               //console.log(count);
 
               if (count%1 == 0){
@@ -68,10 +70,10 @@ $(function(){
              } if (count%2 == 0) {
                $('#caché').html(textCaché).hide('slow');
              }
-  });
+           });
 
-  $('#clickerXs').click(function(){
-    count++;
+$('#clickerXs').click(function(){
+  count++;
               //console.log(count);
 
               if (count%1 == 0){
@@ -79,7 +81,7 @@ $(function(){
              } if (count%2 == 0) {
                $('#caché').html(textCaché).hide('slow');
              }
-  });
+           });
 
   //----------------------- 2 ieme fleche du clicker ------------------------//
 
@@ -128,8 +130,8 @@ $(function(){
 
 //---------------------------3 ieme fleche du clicker ----------------------------//
 
-  $('#click3').click(function(){
-    count++;
+$('#click3').click(function(){
+  count++;
       			// console.log(count);
 
             if (count%1 == 0){
@@ -141,8 +143,8 @@ $(function(){
             }
           });
 
-  $('#click3Sm').click(function(){
-    count++;
+$('#click3Sm').click(function(){
+  count++;
             // console.log(count);
 
             if (count%1 == 0){
@@ -154,18 +156,32 @@ $(function(){
             }
           });
 
-  $('#click3Xs').click(function(){
-    count++;
+$('#click3Xs').click(function(){
+  count++;
             // console.log(count);
 
             if (count%1 == 0){
               $('#photo2').html(photoCaché2).show('slow');
               $('#caché3').html(textCaché3).show('slow');
-            } if (count%2 == 0) {
+            }if (count%2 == 0) {
               $('#photo2').html(photoCaché2).hide('slow');
               $('#caché3').html(textCaché3).hide('slow');
             }
           });
+
+  //------------------------------icone responsive Xs Sm clicker -------------------------------------//
+
+  $('#iconeClicker').click(function(){
+    count++;
+
+
+    if (count%1 === 0) {
+      $('#menu-responsive').show('slow');
+    }
+    if (count%2 === 0) {
+      $('#menu-responsive').hide('slow');
+    }
+  });
 
 });
 
